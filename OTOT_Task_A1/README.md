@@ -23,7 +23,5 @@ npm install
 
 1. Run docker-compose up in OTOT_Task_A1 folder
 2. It will show you certain commands until this line "backend_1   | Task A backend app listening at http://localhost:8080" This means the backend is running.
-3. Access to frontend
+3. Access to frontend at localhost (Type localhost in browser)
 
-Notes:
-Sorry for the large file as I decided to include node_modules so that you don't have to install :(
