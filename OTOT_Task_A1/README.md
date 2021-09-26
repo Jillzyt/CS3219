@@ -25,3 +25,5 @@ npm install
 2. It will show you certain commands until this line "backend_1   | Task A backend app listening at http://localhost:8080" This means the backend is running.
 3. Access to frontend at localhost (Type localhost in browser)
 
+
+
