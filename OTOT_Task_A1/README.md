@@ -11,11 +11,13 @@ Before Step 1, make sure you have docker installed and able to run docker-compos
 Also install relevant modules by running npm install 
 
 From OTOT_Task_A1 folder, <br>
-cd frontend  <br>
-npm install <br>
-cd .. <br>
-cd backend <br>
-npm install <br>
+```
+cd frontend
+npm install
+cd .. 
+cd backend 
+npm install
+```
 
 ^ Above are the commands to run
 
