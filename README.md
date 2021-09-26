@@ -1,1 +1,1 @@
-Submission
+This respository contains CS3219 files seperated within directory.
