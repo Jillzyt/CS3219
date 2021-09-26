@@ -28,4 +28,7 @@ npm install
 3. Access to frontend at localhost (Type localhost in browser)
 
 
+# Any other relevant learnings
+- A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server.
+- A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.
 
