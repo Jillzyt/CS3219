@@ -1,0 +1,11 @@
+
+OTOT_Task_A1/frontend/node_modules/
+OTOT_Task_A1/backend/node_modules/
+
+
+# Ignore all pdfs
+*.pdf
+
+# Ignore all docs
+*.doc
+*.docs
