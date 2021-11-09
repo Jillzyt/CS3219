@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3003
+const port = 3004
 const { Client } = require('pg')
 const redis = require("redis");
 const redisClient = redis.createClient();
@@ -39,7 +39,7 @@ app.get('/redis', async(req, res) => {
         } else {
             // If do not have, set items for key again
             console.log("Setting items for key")
-            const items = await client.query('SELECT * FROM items');
+            const items = await client.query('SELECT * FROM tiles');
             await redisClient.set("key", JSON.stringify(items.rows), function(err, reply) {
                 console.log(err)
                 res.send(JSON.stringify(items.rows))
@@ -51,7 +51,7 @@ app.get('/redis', async(req, res) => {
 
 // Time test without redis
 app.get('/', async(req, res) => {
-    const items = await client.query('SELECT * FROM items');
+    const items = await client.query('SELECT * FROM tiles');
     res.send(JSON.stringify(items.rows))
 })
 
